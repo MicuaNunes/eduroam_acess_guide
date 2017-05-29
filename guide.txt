@@ -13,8 +13,17 @@ add the contents of the credentials_file to the wpa_supplicant file using the ne
 
 : sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
+THIRD:
+download the certificate "AddTrust External CA Root para Windows/Linux/MAC (certificado de segurança tipo CER - 2 Kb)" 
+from https://www.ua.pt/stic/PageText.aspx?id=15224
 
+move the file to /etc/ssl/certs
+reboot.
 
+When the raspberry reboots it should connect automatically to eduroam.
+Have fun.
+
+ 
 
 
 
